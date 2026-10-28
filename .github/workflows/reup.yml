@@ -2,8 +2,8 @@ name: Media Stream Reup Pilot
 
 on:
   schedule:
-    - cron: '15 23 * * *'  # 06:15 GMT+7
-    - cron: '15 14 * * *'  # 21:15 GMT+7
+    - cron: '30 23 * * *'  # 06:15 GMT+7
+    - cron: '30 14 * * *'  # 21:15 GMT+7
   workflow_dispatch:        # Manual trigger
 
 jobs:
